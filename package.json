@@ -18,6 +18,7 @@
   "author": {
     "name": "SiriusSupreme"
   },
+  "license":"MIT",
   "homepage": "https://github.com/siriusSupreme/sirius-echo.git",
   "engines": {
     "node": ">6.0.*"
