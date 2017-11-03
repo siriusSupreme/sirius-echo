@@ -226,7 +226,7 @@ var Channel = function () {
     createClass(Channel, [{
         key: 'notification',
         value: function notification(callback) {
-            return this.listen('.Sirius\\Notifications\\Events\\BroadcastNotificationCreated', callback);
+            return this.listen('.Sirius\\Notify\\Events\\BroadcastNotificationCreated', callback);
         }
     }, {
         key: 'listenForWhisper',

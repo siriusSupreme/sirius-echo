@@ -26,7 +26,7 @@ export abstract class Channel {
      * @return {Channel}
      */
     notification(callback: Function): Channel {
-        return this.listen('.Sirius\\Notifications\\Events\\BroadcastNotificationCreated', callback);
+        return this.listen('.Sirius\\Notify\\Events\\BroadcastNotificationCreated', callback);
     }
 
     /**
